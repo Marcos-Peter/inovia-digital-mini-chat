@@ -1,13 +1,14 @@
 import React from 'react';
 
 import { ChatAreaWrapper } from '@components/chat-area';
-import { ChatWelcomeScreen } from '@components/chat-welcome-screen';
-import type { ChatType } from '../../types/chat.type';
+import { ChatHeader } from '@components/chat-header';
+// import { ChatWelcomeScreen } from '@components/chat-welcome-screen';
 
-export const ChatArea: React.FC<ChatType> = ({ id }) => {
+export const ChatArea: React.FC = () => {
     return (
         <ChatAreaWrapper>
-            <ChatWelcomeScreen />
+            <ChatHeader />
+            {/* <ChatWelcomeScreen /> */}
         </ChatAreaWrapper>
     );
 };
