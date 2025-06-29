@@ -7,9 +7,10 @@ export const SidebarContainer = styled.aside`
     left: 0;
     width: 22rem;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #fdf9f9;
     box-shadow: 3px 0 6px rgba(3, 52, 116, 0.15);
+    z-index: 10;
 
     @media (max-width: 992px) {
         width: 100vw;
