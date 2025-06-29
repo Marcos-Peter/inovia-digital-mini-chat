@@ -10,7 +10,7 @@ import { getNameInitialLetter } from '@utils/get-name-initial-letter';
 import { trimName } from '@utils/trim-conversation-name';
 import { trimMessage } from '@utils/trim-conversation-preview';
 import React from 'react';
-import type { ConversationType } from '../../types/conversation';
+import type { ConversationType } from '../../types/conversation.type';
 
 export const Conversation: React.FC<ConversationType> = ({ name, lastMessage }) => {
     return (
