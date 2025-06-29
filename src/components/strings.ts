@@ -1,1 +1,3 @@
-export const strings = {};
+export const strings = {
+    appTitle: 'MiniTalk',
+};
