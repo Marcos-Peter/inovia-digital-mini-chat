@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 
-    background-color:#F9FAFB;
+    background-color:#f3f3f5;
 
     font-family: 'Inter', 'system-ui', 'sans-serif';
     color: #1F2937;
