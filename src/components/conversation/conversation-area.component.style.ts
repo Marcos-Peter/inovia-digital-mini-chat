@@ -22,6 +22,7 @@ export const ConversationContainer = styled.div`
     padding: 0.5rem;
     padding-bottom: 1rem;
     gap: 1.5rem;
+    width: 100%;
 `;
 
 export const ConversationImage = styled.div`

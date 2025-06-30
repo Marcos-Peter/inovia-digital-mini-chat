@@ -1,5 +1,5 @@
+import Logo from '@assets/icons/favicon.ico';
 import React from 'react';
-import Logo from '../../../public/favicon.ico';
 import { strings } from '../strings';
 import { HeaderContainer, HeaderIcon, HeaderTitle, HeaderTitleWrapper } from './header.component.style';
 
