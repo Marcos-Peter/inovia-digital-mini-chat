@@ -13,7 +13,6 @@ export const GlobalStyle = createGlobalStyle`
 
     font-family: 'Inter', 'system-ui', 'sans-serif';
     color: #1F2937;
-    /* font-family: Arial, Helvetica, sans-serif; */
   }
   main {
     display: flex;
