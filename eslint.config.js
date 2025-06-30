@@ -29,46 +29,12 @@ export default tseslint.config([
             '@typescript-eslint/no-explicit-any': 'off',
             'no-shadow': 'off',
             '@typescript-eslint/no-shadow': ['error'],
-            'import/no-unresolved': ['error', { ignore: ['.png$', '.webp$', '.jpg$', 'story-loader', '^@'] }],
             'react/no-children-prop': 'off',
-            'import/order': [
-                'warn',
-                {
-                    groups: [['builtin', 'external'], 'internal', 'parent', 'sibling', 'index'],
-                    pathGroups: [
-                        {
-                            pattern: 'react',
-                            group: 'external',
-                            position: 'before',
-                        },
-                    ],
-                    pathGroupsExcludedImportTypes: ['react'],
-                    'newlines-between': 'always',
-                    alphabetize: {
-                        order: 'asc',
-                        caseInsensitive: true,
-                    },
-                },
-            ],
             '@typescript-eslint/no-unused-vars': [
                 'warn',
                 { argsIgnorePattern: '^_', varsIgnorePattern: '^_', caughtErrorsIgnorePattern: '^_' },
             ],
-            'import/no-unassigned-import': ['error'],
             radix: ['warn', 'as-needed'],
-            'react/jsx-boolean-value': ['warn', 'never'],
-            'deprecation/deprecation': 'warn',
-            'no-restricted-imports': [
-                'error',
-                {
-                    paths: [
-                        {
-                            name: '@atomic',
-                            message: 'Please use @atomic/<component> instead.',
-                        },
-                    ],
-                },
-            ],
         },
         settings: {
             react: {

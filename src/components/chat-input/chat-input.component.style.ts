@@ -1,16 +1,21 @@
 import styled from 'styled-components';
 
 export const InputWrapper = styled.div`
-    width: 80dvw;
+    width: 70dvw;
     display: flex;
     column-gap: 1rem;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    right: 0;
+
+    @media (max-width: 1200px) {
+        width: 90dvw;
+    }
 `;
 
 export const CustomInput = styled.input`
-    width: 50%;
+    width: 65%;
     height: 3rem;
     border-radius: 1.5rem;
     border: 1px solid rgba(51, 57, 87, 0.2);
@@ -23,6 +28,10 @@ export const CustomInput = styled.input`
     &:focus {
         border-color: #3b82f6;
         outline: none;
+    }
+
+    @media (max-width: 1200px) {
+        width: 50%;
     }
 `;
 

@@ -1,8 +1,8 @@
 import React from 'react';
 
+import Logo from '@assets/icons/favicon.ico';
 import { ContentWrapper, MainIcon, SelectConversationText, WelcomeMessage } from '@components/chat-welcome-screen';
 import { strings } from '@components/strings';
-import Logo from '../../../public/favicon.ico';
 
 export const ChatWelcomeScreen: React.FC = () => {
     return (
